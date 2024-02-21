@@ -1,0 +1,48 @@
+Handy checklists are useful. Here is a bullet point list of Spark code optimization techniques.
+1. Caching
+2. Bucketing and/or Partitioning
+3. File format selection
+4. Compression technique selection
+5. Predicate pushdown
+6. Column pruning
+7. Dynamic allocation
+8. Use advance variables (Broadcast variables, accumulators)
+9. Optimized join techniques
+10. Data serialization
+11. Data shuffling optimization
+12. Data skew handling
+13. Avoid UDF
+14. Avoid data collection
+15. Maximize parallelism
+16. Disable DEBUG and INFO logging
+17. Use higher level APIs like dataframes
+18. Use coalesce() over repartition()
+19. Enforce schema instead of inferring schema
+20. Follow general standard of writing clean, DRY code
+below are most important questions asked in almost every interview👩‍💻👩‍💻
+
+What is PySpark Architecture?
+What's the difference between an RDD, a DataFrame & DataSet?
+How can you create a DataFrame a) using existing RDD, and b) from a CSV file?
+Explain the use of StructType and StructField classes in PySpark with examples?
+What are the different ways to handle row duplication in a PySpark DataFrame?
+Explain PySpark UDF with the help of an example?
+Discuss the map() transformation in PySpark DataFrame
+what do you mean by ‘joins’ in PySpark DataFrame? What are the different types of joins?
+What is PySpark ArrayType?
+What is PySpark Partition?
+What is meant by PySpark MapType? How can you create a MapType using StructType?
+How can PySpark DataFrame be converted to Pandas DataFrame?
+What is the function of PySpark's pivot() method?
+In PySpark, how do you generate broadcast variables?
+When to use Client and Cluster modes used for deployment?
+How can data transfers be kept to a minimum while using PySpark?
+What are Sparse Vectors? What distinguishes them from dense vectors?
+What API does PySpark utilize to implement graphs?
+What is meant by Piping in PySpark?
+What are the various levels of persistence that exist in PySpark?
+List some of the benefits of using PySpark?
+Why do we use PySpark SparkFiles?
+Does PySpark provide a machine learning API?
+What are the types of PySpark’s shared variables and why are they useful?
+What PySpark DAGScheduler?
